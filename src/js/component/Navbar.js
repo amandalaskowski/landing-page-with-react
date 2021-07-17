@@ -10,16 +10,16 @@ export function Navbar() {
 			<button
 				className="navbar-toggler"
 				type="button"
-				databstoggle="collapse"
-				databstarget="#navbarNavAltMarkup"
-				ariacontrols="navbarNavAltMarkup"
-				ariaexpanded="false"
-				arialabel="Toggle navigation">
+				dataBsToggle="collapse"
+				dataBsTarget="#navbarNavAltMarkup"
+				ariaControls="navbarNavAltMarkup"
+				ariaExpanded="false"
+				ariaLabel="Toggle navigation">
 				<span className="navbar-toggler-icon"></span>
 			</button>
 			<div className="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div className="navbar-nav">
-					<a className="nav-link active" ariacurrent="page" href="#">
+					<a className="nav-link active" ariaCurrent="page" href="#">
 						Home
 					</a>
 					<a className="nav-link" href="#">
@@ -31,8 +31,8 @@ export function Navbar() {
 					<a
 						className="nav-link disabled"
 						href="#"
-						tabindex="-1"
-						ariadisabled="true">
+						tabIndex="-1"
+						ariaDisabled="true">
 						Disabled
 					</a>
 				</div>
