@@ -2,10 +2,10 @@ import React from "react";
 
 export function Navbar() {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light">
+		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div className="container-fluid">
 				<a className="navbar-brand" href="#">
-					Navbar
+					Start Bootstrap
 				</a>
 				<button
 					className="navbar-toggler"
@@ -18,7 +18,7 @@ export function Navbar() {
 					<span className="navbar-toggler-icon"></span>
 				</button>
 				<div
-					className="collapse navbar-collapse"
+					className="collapse navbar-collapse d-flex flex-row-reverse"
 					id="navbarNavAltMarkup">
 					<div className="navbar-nav">
 						<a
@@ -28,17 +28,17 @@ export function Navbar() {
 							Home
 						</a>
 						<a className="nav-link" href="#">
-							Features
+							About
 						</a>
 						<a className="nav-link" href="#">
-							Pricing
+							Services
 						</a>
 						<a
 							className="nav-link disabled"
 							href="#"
 							tabIndex="-1"
 							ariaDisabled="true">
-							Disabled
+							Contact
 						</a>
 					</div>
 				</div>
