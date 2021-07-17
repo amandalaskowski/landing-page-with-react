@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar } from "./component/navbar.js";
+import { Navbar } from "./Navbar";
 
 //include images into your bundle
 
