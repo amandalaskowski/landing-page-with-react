@@ -1,21 +1,50 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-.div{
-    width: 85%;
-    height: 250px;
-    margin: auto;
-    background-color:lightgray;
-    
+
+
+
+
+.card {
+    width: 18rem;
+    background-color:white;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
 }
 
-.card{
-    width: 250px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
 .footer{
     color: white;
     
+}
+
+.jumcolor {
+    background-color: lightgrey;
+}
+.div{
+    height: 250px;
+    margin: auto;
+    width: 75%;
+
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding-top: 15px;
+   background-color: #343a40;
+   color: white;
+   text-align: center;
+}
+
+.card1{
+    margin-left: -3px;
+}
+
+.card4{
+    margin-right: -3px;
 }
